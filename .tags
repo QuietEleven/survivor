@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Activate	.\scripts\vscripts\addon_game_mode.lua	/^function Activate()$/;"	f
+LearnAbility	.\scripts\vscripts\ability\ability_culling_blade.lua	/^function LearnAbility(keys)$/;"	f
+Precache	.\scripts\vscripts\addon_game_mode.lua	/^function Precache( context )$/;"	f
+PrecacheResourceByFile	.\scripts\vscripts\uitls\sourceUtil.lua	/^function PrecacheResourceByFile(context)$/;"	f
+PrecacheResourceByTable	.\scripts\vscripts\uitls\sourceUtil.lua	/^function PrecacheResourceByTable(context,kv)$/;"	f
+PrintMsg	.\scripts\vscripts\uitls\printUtil.lua	/^function PrintMsg(msg)$/;"	f
+PrintTable	.\scripts\vscripts\uitls\printUtil.lua	/^function PrintTable(info)$/;"	f
+SurivialGameMode:InitGameMode	.\scripts\vscripts\addon_game_mode.lua	/^function SurivialGameMode:InitGameMode()$/;"	f
