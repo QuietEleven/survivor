@@ -2,8 +2,6 @@
 --2014/11/5
 
 require("utils/sourceUtil")
-require("utils/printUtil")
-require("utils/commandUtil")
 
 if SurivialGameMode == nil then
 	SurivialGameMode = class({})

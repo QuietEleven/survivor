@@ -1,5 +1,9 @@
 --资源的工具类
-require('utils/printUtil')
+
+--工具
+require("utils/printUtil")
+require("utils/commandUtil")
+-- require("utils/spawnUtil")
 
 config_files = {"scripts/npc/npc_units_custom.txt",
 				"scripts/npc/npc_abilities_custom.txt",
@@ -11,6 +15,7 @@ function PrecacheResourceByFile(context)
 	for _,value in ipairs(config_files) do
 		local kv = LoadKeyValues(value)
 			if kv ~= nil then
+				PrintMsg("startPrecache")
 				PrecacheResourceByTable(context,kv)
 		end
 	end

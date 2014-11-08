@@ -5,10 +5,13 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 Activate	.\scripts\vscripts\addon_game_mode.lua	/^function Activate()$/;"	f
+CreateItem	.\scripts\vscripts\utils\commandUtil.lua	/^function CreateItem()$/;"	f
 LearnAbility	.\scripts\vscripts\ability\ability_culling_blade.lua	/^function LearnAbility(keys)$/;"	f
+ListenceCommand	.\scripts\vscripts\utils\commandUtil.lua	/^function ListenceCommand()$/;"	f
 Precache	.\scripts\vscripts\addon_game_mode.lua	/^function Precache( context )$/;"	f
-PrecacheResourceByFile	.\scripts\vscripts\uitls\sourceUtil.lua	/^function PrecacheResourceByFile(context)$/;"	f
-PrecacheResourceByTable	.\scripts\vscripts\uitls\sourceUtil.lua	/^function PrecacheResourceByTable(context,kv)$/;"	f
-PrintMsg	.\scripts\vscripts\uitls\printUtil.lua	/^function PrintMsg(msg)$/;"	f
-PrintTable	.\scripts\vscripts\uitls\printUtil.lua	/^function PrintTable(info)$/;"	f
+PrecacheResourceByFile	.\scripts\vscripts\utils\sourceUtil.lua	/^function PrecacheResourceByFile(context)$/;"	f
+PrecacheResourceByTable	.\scripts\vscripts\utils\sourceUtil.lua	/^function PrecacheResourceByTable(context,kv)$/;"	f
+PrintMsg	.\scripts\vscripts\utils\printUtil.lua	/^function PrintMsg(msg)$/;"	f
+PrintTable	.\scripts\vscripts\utils\printUtil.lua	/^function PrintTable(info)$/;"	f
+RandomSpawnInMap	.\scripts\vscripts\utils\spawnUtil.lua	/^function RandomSpawnInMap(unitName)$/;"	f
 SurivialGameMode:InitGameMode	.\scripts\vscripts\addon_game_mode.lua	/^function SurivialGameMode:InitGameMode()$/;"	f
