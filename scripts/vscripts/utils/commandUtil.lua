@@ -4,7 +4,7 @@ function ListenceCommand()
 	PrintMsg("ListenceCommanding")
 
 	--侦听事件
-	ListenToGameEvent("entity_killed",Dynamic_Warp("OnEntityKilled"), self)
+	-- ListenToGameEvent("entity_killed",Dynamic_Warp("OnEntityKilled"), self)
 
 	--增加调试命令
 	Convars:RegisterCommand("item_culling_blade",CreateItem,"",0)
@@ -14,12 +14,12 @@ function ListenceCommand()
 	end, "",0)
 end
 
-function OnEntityKilled(keys)
-	local killedUnit =	EntIndexToHScript(keys.entindex_killed)
-	if killedUnit then
-		CreateItem(killedUnit)
-	end
-end
+-- function OnEntityKilled(keys)
+-- 	local killedUnit =	EntIndexToHScript(keys.entindex_killed)
+-- 	if killedUnit then
+-- 		CreateItem(killedUnit)
+-- 	end
+-- end
 
 function CreateItem(target)
 	local player = Convars:GetCommandClient() or target
